@@ -4,7 +4,7 @@ Data Science and Machine Learning is an intro course for grad students ...
 
 ## Instructor
 
-* Randy R Davila (U of Houston)
+* Randy Davila
 
 ## Topics
 
