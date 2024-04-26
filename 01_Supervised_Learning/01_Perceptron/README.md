@@ -9,7 +9,7 @@ The perceptron is a type of artificial neuron used in machine learning, represen
 ## Algorithm
 
 <p align="center">
-    <img src="Perceptron.png">
+    <img src="perceptron.png">
 </p>
 
 The algorithm works as follows.
