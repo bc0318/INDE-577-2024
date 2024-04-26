@@ -13,9 +13,7 @@ Linear regression is one of the most fundamental and widely used predictive mode
 </p>
 
 Since (1) we are assuming the target function is a linear function of the input features and (2) we know single neuron models are good function approximators, we build a **single neuron model with linear activation function**. We choose the **mean-squred error** as the cost function:
-$$
-C(\mathbf{w}, b) = \frac{1}{2N}\sum_{i=1}^{N}\Big(\hat{y}^{(i)} - y^{(i)}\Big)^2
-$$
+$$C(\mathbf{w}, b) = \frac{1}{2N}\sum_{i=1}^{N}\Big(\hat{y}^{(i)} - y^{(i)}\Big)^2$$
 
 The algorithm learns by adjusting weights and bias to minimize the cost function. There are two classic types of algorithms used to update the weights and bias.
 
@@ -29,7 +27,7 @@ The algorithm learns by adjusting weights and bias to minimize the cost function
 1. For each epoch **do**
 2. For $i = 1, ..., N$ **do**
 3. Calculate $\frac{\partial C( \mathbf{w}, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial  \mathbf{w}}$ and $\frac{\partial C( \mathbf{w}, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial b}$.
-4. Update: $ \mathbf{w} \leftarrow  \mathbf{w} - \alpha \frac{\partial C( \mathbf{w}, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial  \mathbf{w}}$
+4. Update: $\mathbf{w} \leftarrow  \mathbf{w} - \alpha \frac{\partial C( \mathbf{w}, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial  \mathbf{w}}$
 5. Update: $b \leftarrow b - \alpha \frac{\partial C( \mathbf{w}, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial b}$
 
 *For single neuron models in practice, stochastic gradient descent should be the preferred way*
