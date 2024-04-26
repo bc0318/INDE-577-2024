@@ -1,4 +1,4 @@
-# Decision Trees
+# Ensemble Methods
 
 ## Introduction
 
