@@ -17,14 +17,10 @@ Here is a comparison between the linear regression and logistic regression.
 Similar to the linear regression, the logistic regression is also a **single neuron model**. However, the activation function and the cost function are different. 
 
 In logistic regressions, we use the **sigmoid activation function** as the activation function: 
-$$
-\sigma(z) = \frac{1}{1 + e^{-z}}
-$$
+$$\sigma(z) = \frac{1}{1 + e^{-z}}$$
 
 In logistic regressions, we use the **Binary Cross Entropy Loss Function** as the cost function to update weights and bias:
-$$
-L(\mathbf{w}, b) = -\frac{1}{N} \sum_{i=1}^{N} \log P\Big(y^{(i)}\mid x^{(i)}\Big) = \frac{1}{N}\sum_{i=1}^{N}\Big[ -y^{(i)}\log \hat{y}^{(i)} - (1-y^{(i)}) \log (1 - \hat{y}^{(i)})\Big ]
-$$
+$$L(\mathbf{w}, b) = -\frac{1}{N} \sum_{i=1}^{N} \log P\Big(y^{(i)}\mid x^{(i)}\Big) = \frac{1}{N}\sum_{i=1}^{N}\Big[ -y^{(i)}\log \hat{y}^{(i)} - (1-y^{(i)}) \log (1 - \hat{y}^{(i)})\Big ]$$
 
 In order to optimize the logistic regression single neuron model, we use **stochastic gradient descent**.
 
