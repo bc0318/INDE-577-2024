@@ -16,7 +16,7 @@ Dr. Randy R. Davila: [rrd6@rice.edu](rrd6@rice.edu)
 
 ## Repository Content
 
-This repository contains 11 sub-repositories, including 8 supervised learning algorithms and 3 unsupervised learning algorithms. Each sub-repository contains a README file and a Jupyter notebook. The Jupyter notebook will include an introduction, principles, advatanges, disadvantages, and implementation of each algorithm.
+This repository contains 11 sub-repositories, including 8 supervised learning algorithms and 3 unsupervised learning algorithms. Each sub-repository contains a README file and a Jupyter notebook. Each sub-repository will include an introduction, principles, advatanges, disadvantages, and implementation of each algorithm.
 
 - Supervised learning involves training a model on a labeled dataset, where the desired output or prediction is already known. This technique requires a dataset that includes input-output pairs, where the model learns to predict the output from the input data.
   - Supervised learning is fundamental for predictive modeling and classification. Applications include predicting stock prices, forecasting sales, and more. It allows for straightforward evaluation of model performance using accuracy, precision, recall, F1 scores, etc., because the true outputs (labels) are known.
